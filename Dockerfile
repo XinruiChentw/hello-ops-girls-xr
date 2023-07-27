@@ -13,5 +13,4 @@ COPY . /app/
 RUN npx tsc
 
 EXPOSE 8000
-
 CMD ["yarn", "start"]
